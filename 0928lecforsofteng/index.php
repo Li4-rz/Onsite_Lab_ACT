@@ -25,6 +25,24 @@
 <body>
     
     <?php
+        //Php statemrnt for No.3 Demonstrating FetchAll() Using Print_R() w/ <pre> tag
+        /*$stmt = $pdo->prepare("SELECT * FROM s_employees");
+
+        if ($stmt->execute()) {
+            echo "<pre>";
+            print_r($stmt->fetchAll());
+            echo "pre";
+        }*/
+        
+        //Php statement for No.4 Demonstrating Fetch() Using Print_R() w/ <pre> tag
+        /*$stmt = $pdo->prepare("SELECT * FROM s_employees WHERE Employee_id = 22");
+
+        if ($stmt->execute()) {
+            echo "<pre>";
+            print_r($stmt->fetch());
+            echo "pre";
+        }*/
+
         //Php statement for No.5 Insertion of Records in Database
         /*$QUERY = "INSERT INTO s_employees (Employee_Id, First_Name, Last_Name, Role VALUES (?,?,?,?))";
 
@@ -62,6 +80,8 @@
             echo "Query Failed."
         }*/
     ?>
+
+    
     <!-- Table for No.8 -->
     <!-- 
     <h1>Sales Emplyees Table</h1>
