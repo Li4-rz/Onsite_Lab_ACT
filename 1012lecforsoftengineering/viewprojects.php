@@ -99,6 +99,7 @@
             <th>Project ID</th>
             <th>Project Name</th>
             <th>Technologies Used</th>
+            <th>Date Added</th>
             <th>Project Owner</th>
             <th>Action</th>
         </tr>
@@ -109,6 +110,7 @@
             <td><?php echo $row['project_name']; ?></td>
             <td><?php echo $row['technologies_used']; ?></td>
             <td><?php echo $row['date_added']; ?></td>
+            <td><?php echo $row['project_owner']; ?></td>
             <td>
                 <a href="editproject.php?project_id=<?php echo $row['project_id']; ?>&web_dev_id=<?php echo $_GET['web_dev_id']; ?>">Edit</a>
                 <a href="deleteproject.php?project_id=<?php echo $row['project_id']; ?>&web_dev_id=<?php echo $_GET['web_dev_id']; ?>">Delete</a>
