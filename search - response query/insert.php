@@ -8,7 +8,7 @@ $id = $_GET['id'] ?? null;
 
 $id = null;
 if ($id) {
-    $getApplicantByID = getApplicantByID($pdo, $teacher_id);
+    $getApplicantByID = getApplicantByID($pdo, $id);
 }
 ?>
 
